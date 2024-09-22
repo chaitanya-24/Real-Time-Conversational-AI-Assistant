@@ -36,15 +36,17 @@ retriever = ContextualCompressionRetriever(
     base_retriever = vector_db.as_retriever()
 )
 
-# Creating a template for combining the memory, database and LLM
+# Creating a template for combining the memory, database, and LLM
 prompt = ChatPromptTemplate.from_template(
     """
     Context: {context},
     Chat History: {chat_history},
     Human: {question},
-    AI: Please provide answer based on the context and chat history. Don't include "Based on the context and chat history, here's the answer:" text            
+    AI: Please provide a detailed, informative answer based on the context and chat history. Elaborate on key points, include examples if relevant, and avoid prefacing the response with phrases like "Based on the context and chat history." Aim for clarity and depth in your response.
     """
 )
+
+
 
 
 # Create the ConversationRetrievalChain
