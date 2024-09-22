@@ -117,12 +117,6 @@ Open your browser and navigate to the Streamlit app (usually at `http://localhos
 [Video](https://github.com/user-attachments/assets/69f6fed3-51da-424c-9bfb-643151ae4d43)
 
 
-## Future Enhancements
-
-- **Support for Multiple LLMs**: Integrate more language models to improve the quality and scope of the chatbot’s responses.
-- **Advanced UI**: Further refine the user interface for a more engaging experience.
-- **Additional Features**: Add functionalities like speech-to-text and more customizable conversation flows.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
