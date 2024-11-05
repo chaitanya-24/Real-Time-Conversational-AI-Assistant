@@ -1,4 +1,4 @@
-# AI Conversational Assistant with Flask, LangChain, and Streamlit
+# ChatFlow: An AI Conversational Assistant 
 
 An interactive AI-powered chatbot that uses LangChain to integrate large language models, Flask for the backend, and Streamlit for the frontend. The chatbot allows dynamic, context-aware conversations and uses ChromaDB for efficient document storage and retrieval.
 
